@@ -1,11 +1,11 @@
 # Modern JavaScript From The Beginning
-
 <img src="./media/logo-udemy.svg" width="250">
 
 This repository tracks my progress for the "Modern JavaScript From The Beginning" course on Udemy, as part of the Bay Valley Tech Code Academy.
 
 I'm following the course by copying the starting files and then filling them out as I progress. I also publish my project progress here and include deployment links in this README.
 
+Course Link: [Modern JavaScript From The Beginning on Udemy](https://www.udemy.com/course/modern-javascript-from-the-beginning/)
 ## Projects
 
 ### Shopping List App
