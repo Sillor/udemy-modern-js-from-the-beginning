@@ -1,5 +1,5 @@
 # Modern JavaScript From The Beginning
-<img src="./media/logo-udemy.svg" width="250">
+<img src="./media/logo-udemy.svg" width="400">
 
 This repository tracks my progress for the "Modern JavaScript From The Beginning" course on Udemy, as part of the Bay Valley Tech Code Academy.
 
