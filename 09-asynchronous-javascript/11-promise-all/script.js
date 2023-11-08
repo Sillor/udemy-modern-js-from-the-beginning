@@ -20,16 +20,14 @@ function getData(endpoint) {
   });
 }
 
-getData('./movies.json')
-  .then((movies) => {
-    console.log(movies);
-    return getData('./actors.json');
-  })
-  .then((actors) => {
-    console.log(actors);
-    return getData('./directors.json');
-  })
-  .then((directors) => {
-    console.log(directors);
-  })
-  .catch((error) => console.log(error));
+const moviesPromsie = getData('./movies.json');
+const actorsPromise = getData('./actors.json');
+const directorsPromise = getData('./directors.json');
+
+const dummyPromise = new Promise((resolve, reject) => {
+  resolve("Hello world");
+})
+
+Promise.all([moviesPromsie, actorsPromise, directorsPromise, dummyPromise])
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
