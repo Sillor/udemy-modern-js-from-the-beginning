@@ -4,4 +4,10 @@ class Rectangle {
     this.height = height;
     this.width = width;
   }
+
+  static getClass() {
+    return 'Rectangle';
+  }
 }
+
+console.log(Rectangle.getClass());
