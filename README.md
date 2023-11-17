@@ -15,6 +15,13 @@ Course Link: [Modern JavaScript From The Beginning on Udemy](https://www.udemy.c
 - [Live Demo](https://main--sillor-shopping-list.netlify.app/)
 - [Repository](https://github.com/Sillor/udemy-modern-js-from-the-beginning/tree/main/08-shopping-list-project/shopping-list)
 
+### Tracalorie App
+
+<img src='./media/tracalorie.png' width='500'>
+
+- [Live Demo](https://marvelous-paletas-c8dffa.netlify.app/)
+- [Repository](https://github.com/Sillor/udemy-modern-js-from-the-beginning/tree/main/15-tracalorie-project)
+
 ## Course Overview
 
 This course covers various aspects of modern JavaScript development, but here is what I documented in this repo:
@@ -22,6 +29,10 @@ This course covers various aspects of modern JavaScript development, but here is
 - DOM manipulation
 - Events
 - Shopping List Project
+- Asynchronous JavaScript
+- OOP - Constructors & Prototypes
+- OOP - Classes, Getter & Setters, Private Properties, etc
+- Tracalorie App - OOP Project
 
 ## Repository Structure
 
